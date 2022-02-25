@@ -1,0 +1,2053 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>하남시청</title>
+    <script src="js/jquery.min.js"></script>
+    <!--[if lt IE 9]> 
+        <script src="js/html5shiv.js"></script> 
+    <![endif]-->
+    <!-- <script src="js/prefixfree.min.js"></script> -->
+    <script src="js/respond.min.js"></script>
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script src="js/swiper/swiper.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dotdotdot.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 모달창 -->
+    <div class="modal">
+        <div class="modal-cont">
+            <p class="modal-txt">
+                본 사이트는 포트폴리오용 사이트로 <br>
+                리소스는 원저작자에게 있습니다.
+            </p>
+            <span class="modal-desc">
+                HTML5, CSS3, javaScript & jQuery로 제작되었으며,<br>
+                크롬에 최적화 되어있습니다.
+            </span>
+            <button class="modal-close">CLOSE</button>
+        </div>
+    </div>
+    <div class="wrap">
+        <!-- 상단영역 -->
+        <header class="header">
+            <div class="header-top">
+                <div class="pagew">
+                    <!-- 왼쪽영역 -->
+                    <div class="link-site">
+                        <ul class="link-list">
+                            <li><a href="#">시정뉴스포탈</a></li>
+                            <li><a href="#">청정하남</a></li>
+                            <li><a href="#">의회</a></li>
+                            <li><a href="#">보건소</a></li>
+                        </ul>
+                        <a href="#" class="family-link">하남패밀리사이트</a>
+                    </div>
+                    <!-- 오른쪽영역 -->
+                    <div class="service-link">
+                        <div class="weather">
+                            <span class="weather-cel">
+                                19.0 &#8451;
+                            </span>
+                            <div class="weather-slide">
+                                초미세먼지 양호
+                            </div>
+                        </div>
+                        <div class="personal">
+                            <ul class="personal-list">
+                                <li>
+                                    <a href="#" title="로그인" class="login">로그인</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="언어" class="language">global</a>
+                                    <ul class="language-list">
+                                        <li><a href="#" class="language-focus">korean</a></li>
+                                        <li><a href="#">english</a></li>
+                                        <li><a href="#">japanes</a></li>
+                                        <li><a href="#">chinese</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="well-fare">맞춤복지</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="pagew">
+                    <a href="index.html" title="하남시청" class="logo">
+                    </a>
+                    <div class="fixed-menu">
+                        <div class="help">
+                            <a href="#" title="사이트맵" class="sitemap"></a>
+                            <button class="search-bt">검색</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 내용 검색 영역 -->
+                <div class="search-wrap">
+                    <div class="search">
+                        <form action="" method="" id="" class="search-form">
+                            <input type="submit" name="" class="search-ok">
+                            <input type="text" class="search-word" placeholder="검색어를 입력해 주세요">
+                            <button class="search-key">키보드</button>
+                        </form>
+                        <div class="search-hash">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="gnb">
+                <div class="pagew">
+                    <ul class="menu">
+                        <li>
+                            <a href="#">종합민원</a>
+                        </li>
+                        <li>
+                            <a href="#">시민참여</a>
+                        </li>
+                        <li>
+                            <a href="#">정보공개</a>
+                        </li>
+                        <li>
+                            <a href="#">하남소식</a>
+                        </li>
+                        <li>
+                            <a href="#">하남소개</a>
+                        </li>
+                        <li>
+                            <a href="#">분야별정보</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="depth2-wrap">
+                    <div class="pagew">
+
+                        <div class="depth2 clearfix">
+                            <div class="depth2-box-type1 mr-25">
+                                <div class="depth2-box-cate">
+                                    <div class="depth2-box-tit depth2-icon">
+                                        <a href="#">민원신청 및 결과조회</a>
+                                    </div>
+                                    <ul class="depth2-box-sub-list">
+                                        <li><a href="#">민원상담</a></li>
+                                        <li><a href="#">공유민원보기</a></li>
+                                        <li><a href="#">나의민원보기</a></li>
+                                        <li><a href="#">(구)전자민원열람</a></li>
+                                        <li><a href="#">민원처리공개</a></li>
+                                        <li><a href="#">민원방문 상담예약</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="depth2-box-type1 mr-25">
+                                <div class="depth2-box-cate">
+                                    <div class="depth2-box-tit depth2-icon">
+                                        <a href="#">민원안내</a>
+                                    </div>
+                                    <ul class="depth2-box-sub-list">
+                                        <li><a href="#">어디서나 민원</a></li>
+                                        <li><a href="#">원스톱 민원창구</a></li>
+                                        <li><a href="#">민원안내·행정상담창구</a></li>
+                                        <li><a href="#">사전심사제</a></li>
+                                        <li><a href="#">민원후견인제도</a></li>
+                                        <li><a href="#">민원신청 시 생략 가능한 서류</a></li>
+                                        <li><a href="#">폐업신고 원스톱 서비스</a></li>
+                                        <li><a href="#">민원1회방문상담창구 및 사회취약계층(장애인,임산부) 상담창구운영</a></li>
+                                        <li><a href="#">무인민원발급기 안내</a></li>
+                                        <li><a href="#">여권안내</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="depth2-box-type1 mr-25">
+                                <div class="depth2-box-cate">
+                                    <div class="depth2-box-tit">
+                                        <a href="#">정부24(온라인민원발급)</a>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-cate">
+                                    <div class="depth2-box-tit">
+                                        <a href="#">빛나는 하남콜센터</a>
+
+                                    </div>
+                                </div>
+                                <div class="depth2-box-cate">
+                                    <div class="depth2-box-tit depth2-icon">
+                                        <a href="#">가족관계등록신고</a>
+                                    </div>
+                                    <ul class="depth2-box-sub-list">
+                                        <li><a href="#">가족관계등록신고안내</a></li>
+                                        <li><a href="#">가족관계등록신고양식</a></li>
+                                        <li><a href="#">신고서 작성방법(출생·혼인·사망·이혼)</a></li>
+                                        <li><a href="#">가족관계증명서발급</a></li>
+                                        <li><a href="#">인터넷신고</a></li>
+                                        <li><a href="#">자주하는 질문</a></li>
+                                        <li><a href="#">수원지방법원 성남지원</a></li>
+                                        <li><a href="#">인근 가족관계등록관서 안내</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="depth2-box-type1 mr-25">
+                                <div class="depth2-box-cate">
+                                    <div class="depth2-box-tit">
+                                        <a href="#">행정서비스헌장</a>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-cate">
+                                    <div class="depth2-box-tit">
+                                        <a href="#">민원편람/서식</a>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-cate">
+                                    <div class="depth2-box-tit depth2-icon">
+                                        <a href="#">정보통신공사 민원업무</a>
+                                    </div>
+                                    <ul class="depth2-box-sub-list">
+                                        <li><a href="#">사용전검사 및 감리</a></li>
+                                        <li><a href="#">민원 처리현황 조회 및 인터넷 발급</a></li>
+                                        <li><a href="#">관련서식 및 자료실</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="depth2-box-type1">
+                                <div class="depth2-box-cate">
+                                    <div class="depth2-box-tit">
+                                        <a href="#">고객만족도평가결과</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="depth2-box-type1">
+                                <div class="depth2-box-cate">
+                                    <div class="depth2-box-tit">
+                                        <a href="#">자주받는민원</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depth2 clearfix">
+                            <div class="depth2-wrap-row clearfix">
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">주민참여예산/결산</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">주민참여예산 공지사항</a></li>
+                                            <li><a href="#">주민참여결산 공지사항</a></li>
+                                            <li><a href="#">주민참여예산학교</a></li>
+                                            <li><a href="#">주민참여예산 신청</a></li>
+                                            <li><a href="#">나의제안보기</a></li>
+                                            <li><a href="#">청소년제안</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">제안마당</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">공모 안내 및 제안참여</a></li>
+                                            <li><a href="#">제안 심사결과</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type2 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">사이버신고센터</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list flo-left-50">
+                                            <li><a href="#">공익신고</a></li>
+                                            <li><a href="#">예산낭비신고</a></li>
+                                            <li><a href="#">지방기업규제개혁신문고</a></li>
+                                            <li><a href="#">환경신문고</a></li>
+                                            <li><a href="#">기업불편사항신고</a></li>
+                                            <li><a href="#">홈페이지 오류신고</a></li>
+                                            <li><a href="#">안전신고</a></li>
+                                        </ul>
+                                        <ul class="depth2-box-sub-list flo-left-50">
+                                            <li><a href="#">공직자부조리/소극행정 신고</a></li>
+                                            <li><a href="#">규제개혁신고</a></li>
+                                            <li><a href="#">국무조정실 규제개혁신문고</a></li>
+                                            <li><a href="#">아동권리 침해 신고</a></li>
+                                            <li><a href="#">불법중개행위신고</a></li>
+                                            <li><a href="#">지방세납세자보호관</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">시민자유마당</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">시민게시판</a></li>
+                                            <li><a href="#">칭찬합시다</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">투표하남</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="depth2-wrap-row">
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">환경나눔장터</a>
+                                        </div>
+
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">장터소개</a></li>
+                                            <li><a href="#">일정안내 및 예약</a></li>
+                                            <li><a href="#">자원봉사</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">하남시 범시민 서면운동</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">설문조사</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">지하철 하남선 활성화</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">확진자 동선 삭제 신청</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">내고장 적극행정</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">게시판</a></li>
+                                            <li><a href="#">소극행정 신고</a></li>
+                                            <li><a href="#">행정안전부 법령유권해석 DB</a></li>
+                                            <li><a href="#">법제처 법령유권해석 DB</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depth2 clearfix">
+                            <div class="depth2-wrap-row clearfix">
+                                <div class="depth2-box-type2 mr-25">
+                                    <div class="depth2-box-cate clearfix">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">
+                                                행정정보공개
+                                            </a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list flo-left-50">
+                                            <li><a href="#">행정정보공개 안내</a></li>
+                                            <li><a href="#">행정정보목록조회</a></li>
+                                            <li><a href="#">사전정보공표</a></li>
+                                            <li><a href="#">정책실명제</a></li>
+                                            <li><a href="#">개인정보 목적 외 이용 및 제3자 제공현황</a></li>
+                                        </ul>
+                                        <ul class="depth2-box-sub-list flo-left-50">
+                                            <li><a href="#">공개청구/이의신청</a></li>
+                                            <li><a href="#">정보목록(2005~2013)</a></li>
+                                            <li><a href="#">행정처분공개</a></li>
+                                            <li><a href="#">정책연구용역보고서</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">
+                                                공공데이터
+                                            </a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">공공데이터 개방 안내</a></li>
+                                            <li><a href="#">공공데이터 개방 목록</a></li>
+                                            <li><a href="#">공공데이터 제공 신청</a></li>
+                                            <li><a href="#">우리지역 데이터 찾기</a></li>
+                                            <li><a href="#">공공데이터 관련사이트</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type2">
+                                    <div class="depth2-box-cate clearfix">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">
+                                                계약정보공개
+                                            </a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list flo-left-50">
+                                            <li><a href="#">조달청발주계획</a></li>
+                                            <li><a href="#">조달청입찰정보</a></li>
+                                            <li><a href="#">계약현황</a></li>
+                                            <li><a href="#">하도급 계약현황</a></li>
+                                            <li><a href="#">공기업 특별회계(상수도)계약</a></li>
+                                            <li><a href="#">대금지급현황</a></li>
+                                            <li><a href="#">공기업 특별회계(상수도)</a></li>
+                                            <li><a href="#">계약 관련 서식</a></li>
+                                        </ul>
+                                        <ul class="depth2-box-sub-list flo-left-50">
+                                            <li><a href="#">1인견적 수의계약 발주계획</a></li>
+                                            <li><a href="#">조달청개찰결과</a></li>
+                                            <li><a href="#">국수의 계약현황</a></li>
+                                            <li><a href="#">준공검사</a></li>
+                                            <li><a href="#">공기업 특별회계(하수도)계약</a></li>
+                                            <li><a href="#">대금지급예고</a></li>
+                                            <li><a href="#">공기업 특별회계(하수도)</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="depth2-wrap-row clearfix">
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">
+                                                예산/결산
+                                            </a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">예산현황</a></li>
+                                            <li><a href="#">일지방재정공시</a></li>
+                                            <li><a href="#">결산현황</a></li>
+                                            <li><a href="#">재정정보공개</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">
+                                                통계정보
+                                            </a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">통계연보</a></li>
+                                            <li><a href="#">인구통계</a></li>
+                                            <li><a href="#">자원봉사</a></li>
+                                            <li><a href="#">사업체조사 보고서</a></li>
+                                            <li><a href="#">사회조사 보고서</a></li>
+                                            <li><a href="#">청소년 사회환경조사</a></li>
+                                            <li><a href="#">일자리 인식실태조사</a></li>
+                                            <li><a href="#">통계지도</a></li>
+                                            <li><a href="#">공무원 시험·인사통계</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">
+                                                시정 주요업무계획
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">
+                                                지방공기업 안내
+                                            </a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">지방공기업 안내</a></li>
+                                            <li><a href="#">지방공기업 현황</a></li>
+                                            <li><a href="#">지방공기업 경영정보</a></li>
+                                            <li><a href="#">산하 지방공기업 결산정보</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">
+                                                지자체 조직운영 지표공개
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">
+                                                업무추진비공개
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon2">
+                                            <a href="#">
+                                                경기도 민생범죄통계
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon2">
+                                            <a href="#">
+                                                자치법규 확인
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon2">
+                                            <a href="#">
+                                                정보공개 포털사이트
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depth2 clearfix">
+                            <div class="depth2-wrap-row clearfix">
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">열린시정</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">시정방침</a></li>
+                                            <li><a href="#">감사결과공표</a></li>
+                                            <li><a href="#">공지사항</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">이건 이렇습니다.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">하남새소식</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">기타 알림</a></li>
+                                            <li><a href="#">시정뉴스포털</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">하남시보</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">공고/고시/입법예고</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">고시/공고</a></li>
+                                            <li><a href="#">입찰공고</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="depth2-wrap-row">
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">채용/일자리 정보</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">채용공고</a></li>
+                                            <li><a href="#">일자리센터</a></li>
+                                            <li><a href="#">내주변 일자리지도</a></li>
+                                            <li><a href="#">대학생 시정참여 아르바이트 지원</a></li>
+                                            <li><a href="#">대학생 주말 내일 알바</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">문화행사</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">하남시 문화행사</a></li>
+                                            <li><a href="#">축제/행사소개</a></li>
+                                            <li><a href="#">이성문화축제</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">나눔장터</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">삽니다</a></li>
+                                            <li><a href="#">팝니다</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">하남소식지(청정하남)</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">시정정보 문자서비스신청</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depth2 clearfix">
+                            <div class="depth2-wrap-row clearfix">
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">시정안내</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">부서안내/직원검색(조직도)</a></li>
+                                            <li><a href="#">시청 오시는길</a></li>
+                                            <li><a href="#">공지사항</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">일반현황</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">소개</a></li>
+                                            <li><a href="#">연혁</a></li>
+                                            <li><a href="#">위치/면적/행정</a></li>
+                                            <li><a href="#">하남현황</a></li>
+                                            <li><a href="#">하남시사</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">상징물/캐릭터</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">심볼</a></li>
+                                            <li><a href="#">상징물</a></li>
+                                            <li><a href="#">캐릭터</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">헌장/노래</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">헌장</a></li>
+                                            <li><a href="#">노래</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">수상내역</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">기관수상내역</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="depth2-wrap-row">
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">자매결연도시</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">도시현황</a></li>
+                                            <li><a href="#">국내자매도시</a></li>
+                                            <li><a href="#">국제자매도시</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">역대시장</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">주요기관</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1 mr-25">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit depth2-icon">
+                                            <a href="#">하남미디어</a>
+                                        </div>
+                                        <ul class="depth2-box-sub-list">
+                                            <li><a href="#">위례사랑길</a></li>
+                                            <li><a href="#">위례강변길</a></li>
+                                            <li><a href="#">위례역사길</a></li>
+                                            <li><a href="#">위례둘레길</a></li>
+                                            <li><a href="#">하남 주요장소VR</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="depth2-box-type1">
+                                    <div class="depth2-box-cate">
+                                        <div class="depth2-box-tit">
+                                            <a href="#">빛나는 하남 브랜드</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 분야별정보 -->
+                        <div class="depth2 clearfix pd-no">
+                            <div class="part-left">
+                                <p class="part-tit">
+                                    시민이 좋아합니다.<br>
+                                    하남이 좋아합니다.
+                                </p>
+                            </div>
+                            <div class="part-right">
+                                <ul class="part-list">
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-1"></span>
+                                            <span class="part-txt">복지</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-2"></span>
+                                            <span class="part-txt">보건</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-3"></span>
+                                            <span class="part-txt">기업/경제</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-4"></span>
+                                            <span class="part-txt">도시/지적</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-5"></span>
+                                            <span class="part-txt">도로/교통</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-6"></span>
+                                            <span class="part-txt">환경/공원</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-7"></span>
+                                            <span class="part-txt">재난/안전</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-8"></span>
+                                            <span class="part-txt">교육/강좌</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-9"></span>
+                                            <span class="part-txt">문화/관광</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-10"></span>
+                                            <span class="part-txt">체육</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-11"></span>
+                                            <span class="part-txt">주택/건축</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-12"></span>
+                                            <span class="part-txt">민방위</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-13"></span>
+                                            <span class="part-txt">상하수도</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="part-icon part-icon-14"></span>
+                                            <span class="part-txt">식품/위생</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- 메인영역 -->
+        <div class="container">
+            <!-- 시정 소식 -->
+            <section class="city-info">
+                <span class="city-tit-line"></span>
+                <div class="pagew clearfix">
+                    <!-- 시정 홍보 영역 -->
+                    <div class="city-ad">
+                        <div class="city-ad-slide">
+                            <div class="city-ad-slide-tab">
+                                <div class="city-ad-cate city-ad-cate-focus">
+                                    <span class="sw-info-tit sw-city-tit">정보</span>
+                                    <div class="sw-info-pg sw-city-pg"></div>
+                                    <span class="sw-info-bt sw-city-bt"></span>
+                                </div>
+                                <div class="city-ad-cate">
+                                    <span class="sw-ad-tit sw-city-tit">홍보</span>
+                                    <div class="sw-ad-pg sw-city-pg"></div>
+                                    <span class="sw-ad-bt sw-city-bt"></span>
+                                </div>
+                            </div>
+                            <div class="city-ad-slide-tab-cont">
+                                <div class="city-sw-wrap">
+                                    <div class="swiper-container sw-info">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="#"><img src="images/info_1.jpg" alt="사진"></a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#"><img src="images/info_2.jpg" alt="사진"></a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#"><img src="images/info_3.jpg" alt="사진"></a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#"><img src="images/info_4.jpg" alt="사진"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sw-info-prev sw-city-prev"></div>
+                                    <div class="sw-info-next sw-city-next"></div>
+                                </div>
+                                <div class="city-sw-wrap">
+                                    <div class="swiper-container sw-ad">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="#"><img src="images/ad_1.jpg" alt="사진"></a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#"><img src="images/ad_2.jpg" alt="사진"></a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="#"><img src="images/ad_3.jpg" alt="사진"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sw-ad-prev sw-city-prev"></div>
+                                    <div class="sw-ad-next sw-city-next"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="city-corona">
+                            <span class="corona-icon"></span>
+                            <span class="corona-txt1">코로나19 현황</span>
+                            <span class="corona-txt2">확진환자 <strong>치료중 43명</strong></span>
+                            <i class="corona-bar"></i>
+                            <span class="corona-txt2">관리대상자 <strong>자가격리 432명</strong></span>
+                            <a href="#" class="corona-more">더보기</a>
+                        </div>
+                        <div class="city-icon">
+                            <ul class="city-icon-list">
+                                <li>
+                                    <a href="#">
+                                        <span class="city-icon-box icon-box-1"></span>
+                                        조직도
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="city-icon-box icon-box-2"></span>
+                                        청사안내
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="city-icon-box icon-box-3"></span>
+                                        생애주기별 복지
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="city-icon-box icon-box-4"></span>
+                                        일자리정보
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 시정 뉴스 영역 -->
+                    <div class="city-news">
+                        <h2 class="city-news-tit"><span class="tit-sky">소식을</span> 전하남</h2>
+                        <div class="city-news-wrap">
+                            <ul class="city-news-list">
+                                <li class="news-focus"><span>공지사항</span></li>
+                                <li><span>고시공고</span></li>
+                                <li><span>입찰공고</span></li>
+                                <li><span>채용공고</span></li>
+                                <li><span>이건 이렇습니다</span></li>
+                                <li><span>기타 알림사항</span></li>
+                            </ul>
+                            <div class="city-news-slide">
+                                <!-- 콘트롤러 -->
+                                <div class="city-news-nav clearfix">
+                                    <span class="city-news-prev"></span>
+                                    <div class="swiper-pagination city-news-pg"></div>
+                                    <span class="city-news-next"></span>
+                                </div>
+                                <!-- 공지사항 -->
+                                <div class="swiper-container sw-news-1">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <span class="news-icon"></span>
+                                                    <p class="news-tit">하남교육재단 사무국장 채용안내</p>
+                                                    <p class="news-desc">하남교육재단에서 하남교육재단 사무국장 채용공고을 알립니다. □채용안내 가. 채용분야 및
+                                                        인원: 사</p>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <span class="news-icon"></span>
+                                                    <p class="news-tit">희망장난감도서관 2021년 제3차 회원 모집</p>
+                                                    <p class="news-desc">안녕하세요~
+                                                        희망장난감도서관 2021년 제3차 회원모집 안내입니다.
+                                                        첨부파일을 참고해주세요~</p>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <span class="news-icon"></span>
+                                                    <p class="news-tit">다중이용시설 실내공기질 자가측정 및 오염도 검사 결과(2021년 2분기)</p>
+                                                    <p class="news-desc">2021년 2분기 하남시 다중이용시설 실내공기질 자가측정 및 오염도 검사 결과를 붙임과 같이
+                                                        공개합니다.</p>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <span class="news-icon"></span>
+                                                    <p class="news-tit">【전문가 특강】 읏짜읏짜 챌린지 : '같이, 가치' 지역과 함께 Up! 초록지구공생편</p>
+                                                    <p class="news-desc">평생교육 분야에 ESG 경영 개념을 적극 도입하여 3가지 키워드(환경보호, 사회공헌,
+                                                        지배구조)를 중심으로</p>
+                                                    <span class="news-date">2021-08-03</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <span class="news-icon"></span>
+                                                    <p class="news-tit">
+                                                        <일자리카페>> '8월 현직자 직무 멘토링(메조미디어/인사팀)' 참여자 모집
+                                                    </p>
+                                                    <p class="news-desc">일자리카페에서는 청년 취업에 도움을 드리고자 8월 현직자 직무 멘토링을 준비하였으니 많은
+                                                        신청바랍니다.</p>
+                                                    <span class="news-date">2021-08-03</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-container sw-news-2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <p class="news-tit">자동차 운행정지 명령 공고</p>
+                                                    <p class="news-desc">1. 제 목 : 자동차 운행정지 명령 공고
+                                                        2. 기 간 : 2021.08.05.~2021.08.20.(15일간)</p>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <p class="news-tit">하남시 시장 공약사항 관리 규칙안 입법예고 및 의견조회</p>
+                                                    <p class="news-desc">1. 「하남시 자치법규 입법에 관한 조례」 제5조에 따라 「하남시 시장 공약사항 관리 규칙」
+                                                        제정안을 다음과 같이 입법예고 하오니,
+                                                        2. 도시브랜드담당관은 시보 및 홈페이지에 각 동장은 행정복지센터 게시판에 게시하여 주시기 바라며, 의견이 있는 개인이나
+                                                        단체 및 부서는 2021.8.26(목)까지 의견서를 제출하여 주시기 바랍니다.
+                                                        ○ 입법예고 규칙명 : 「하남시 시장 공약사항 관리규칙 제정안」
+                                                        ○ 예고기간 : 2021. 8. 5. ~ 2021. 8. 26. (21일간)
+                                                        ○ 예고방법 : 시보, 홈페이지, 게시판 공고
+                                                        붙 임 : 하남시 시장 공약사항 관리 규칙안 1부. 끝.</p>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">2021년 하남시 민간위탁사무 특정감사 실시 공고</p>
+                                                    <p class="news-desc">하남시에서는 2021년도 감사 기본계획에 따라 2021.8.30.(월)부터 9.3.(금)까지
+                                                        민간위탁사무에 대해 특정감사를 실시합니다.
+                                                        시민 여러분께서는 2021.8.27.(금)까지 아래 민간위탁기관에 대한 민간위탁사무 수행과 관련하여 소속 직원의 위법부당한
+                                                        사항이나 불합리한 규제 등 시민생활에 불편을 초래하는 사항을 신고(제보)하여 주시면 감사기간 중 사실을 확인한 후
+                                                        처리결과를 회신하여 드리겠습니다.
+                                                        아울러, 제보자의 신분은 철저히 보안하여 불이익을 받는 일이 없도록 하겠습니다.
+                                                        2021. 8. 4.
+                                                        하 남 시 장</p>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">도시계획시설 도로(광로2-2호)사업 시행자 지정 및 실시계획인가를 위한 열람 공고</p>
+                                                    <p class="news-desc">1. 도시계획시설 도로(광로2-2호선) 사업과 관련하여 시행자 지정 및 실시계획이 신청되어
+                                                        「국토의 계획 및 이용에 관한 법률」 제90조제1항, 같은법 시행령 제99조 규정에 따라 열람ㆍ공고 합니다.
+                                                        2. 관계도서를 열람 장소에 비치하여 이해관계인에게 보이고 있으니 의견이 있으신 분은 열람기간 내 제출하여 주시기
+                                                        바랍니다.</p>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">하남교산 공공주택지구 수용재결신청서(6차) 열람공고</p>
+                                                    <p class="news-desc">국토교통부 고시 제2019-558호(2019.10.15)로 지구 지정된「하남교산
+                                                        공공주택지구」에 편입되는 토지 등의 수용을 위한 재결신청이 있어, 그 신청서 및 관계서류를 「공익사업을 위한 토지 등의
+                                                        취득 및 보상에 관한 법률 시행령」제15조에 따라 아래와 같이 열람？공고 합니다. 토지 소유자와 관계인은 본 공고 내용과
+                                                        관련하여 열람기간 내 열람하고 우리시에 의견을 제출할 수 있습니다.</p>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-container sw-news-3">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">[긴급] 덕풍천 자전거도로 보수공사 폐기물처리 용역 입찰 공고</p>
+                                                    <p class="news-desc">첨부 확인</p>
+                                                    <span class="news-date">2021-08-04</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">하남시 지하철 부대사업 민간위탁 입찰 공고</p>
+                                                    <p class="news-desc">"하남시 사무의 민간위탁 촉진 및 관리 조례" 제4조의 규정에 의거 하남시 지하철 부대사업
+                                                        입찰공고를 붙임과 같이 "홈페이지""게시판"에 게재하고자 합니다.</p>
+                                                    <span class="news-date">2021-08-04</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+
+                                                    <p class="news-tit">건설공사 안전점검 수행기관 지정 공고(하남 미사 자족13-4BL)</p>
+                                                    <p class="news-desc">하남시 미사지구 자족 13-4 BL 지식산업센터 신축공사와 관련하여 「건설기술 진흥법」
+                                                        제62조 및 같은 법 시행령 제100조의2 및 「건설공사 안전관리 업무수행지침(국토교통부 고시 제2020-47호)」에 따라
+                                                        건설공사 안전점검 수행기관을 지정하고자 붙임과 같이 공고합니다.
+                                                        붙임 : 1. 건설공사 안전점검 수행기관 지정 공고(하남 미사 자족13-4BL).
+                                                        2. 하남시 건설공사 안전점검 수행기관 세부평가 기준 및 서식(2차 수정).
+                                                        3. 건설공사 안전점검 점검비 산출내역. 끝.</p>
+                                                    <span class="news-date">2021-08-03</span>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">스마트 관망관리 인프라 구축사업 실시설계 용역 입찰공고</p>
+                                                    <p class="news-desc">스마트 관망관리 인프라 구축사업 실시설계 용역 입찰공고입니다.</p>
+                                                    <span class="news-date">2021-08-03</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <p class="news-tit">2021년 금연보조제 구매(단가)계약 견적 제출 안내 재공고</p>
+                                                    <p class="news-desc">붙임</p>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-container sw-news-4">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">2021년도 하남시육아종합지원센터 직원 채용 공고</p>
+                                                    <p class="news-desc">아래의 고시공고를 [홈페이지]에 게재 하고자 합니다.
+                                                        ○ 공고기간: 2021. 8. 5.(목) ~2021. 8. 18.(수) / 13일간
+                                                        ○ 모집분야: 발달지원상담원(1명)
+                                                        ○ 접수기간: 2021. 8. 3.(화)~ 2021. 8. 18.(수)
+                                                        ○ 접수방법: 1차 서류 - 이메일(hanam6579@daum.net), 2차-면접
+                                                        ○ 문 의 처 : 하남시육아종합지원센터 채용담당 031)796-6579(내선5)
+                                                        붙임 2021년 하남시육아종합지원센터 직원채용 공고 1부. 끝.</p>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">하남시니어클럽 직원 채용 공고</p>
+                                                    <p class="news-desc">직원채용 문의전화 : 하남시민생안정후원회 031-8027-2099</p>
+                                                    <span class="news-date">2021-08-04</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+
+                                                    <p class="news-tit">2021년 코로나19 대응인력 한시 지원사업 기간제 근로자(간호사) 채용 공고</p>
+                                                    <p class="news-desc">하남시보건소에서 2021년 코로나19 대응인력 한시 지원사업 기간제 근로자(간호사)를
+                                                        채용하고자 붙임과 같이 공고하온이, 각 부서에서는 많은 시민이 응시할 수 있도록 적극 홍보하여 주시기 바랍니다.
+                                                        1. 채용분야 및 인원 : 간호사 4명
+                                                        2. 업무내용 : 코로나19 대응업무 및 건강생활실천사업 등 보건사업
+                                                        3. 근무기간 : 2021. 9. 1. ~ 2021. 12. 12.
+                                                        4. 근무조건 및 응시자격 : 공고문 참고
+                                                        붙임 2021년 코로나19 대응인력 한시 지원사업 기간제 근로자(간호사) 채용 공고 1부. 끝.</p>
+                                                    <span class="news-date">2021-08-03</span>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">하남시 행복마을관리소 지킴이(결원충원) 공개채용 최종 합격자 공고</p>
+                                                    <p class="news-desc">하남시 행복마을관리소 지킴이(결원충원) 공개채용 최종 합격자 및 채용 안내사항을 붙임과 같이
+                                                        공고합니다.</p>
+                                                    <span class="news-date">2021-07-30</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">2021년 모바일 헬스케어사업 기간제 근로자(신체활동 전문가) 채용 공고</p>
+                                                    <p class="news-desc">하남시보건소에서 2021년 모바일 헬스케어사업 기간제 근로자(신체활동 전문가)를 채용하고자
+                                                        붙임과 같이 공고하오니, 각 부서에서는 많은 시민이 응시할 수 있도록 적극 홍보하여 주시기 바랍니다.
+                                                        1. 채용분야 및 인원 : 신체활동 전문가 1명
+                                                        2. 업무내용 : 모바일 헬스케어 사업 및 지역사회 통합건강증진사업 등
+                                                        3. 근무기간 : 2021. 9. 1. ~ 2021. 12. 31.
+                                                        4. 근무조건 및 응시자격 : 공고문 참고
+                                                        붙임 2021년 모바일 헬스케어사업 기간제 근로자(신체활동 전문가) 채용 공고 1부. 끝.</p>
+                                                    <span class="news-date">2021-07-30</span>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-container sw-news-5">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <p class="news-tit">행정사무감사 및 언론보도에서 제기된 A지식산업센터에 대해 설명드립니다.</p>
+                                                    <p class="news-desc">행정사무감사 및 언</p>
+                                                    <span class="news-date">2021-06-10</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <p class="news-tit">강동구민 백신 접종, 잘못 알려진 사실에 대해 설명드립니다.</p>
+                                                    <p class="news-desc">하남</p>
+                                                    <span class="news-date">2021-05-18</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <p class="news-tit">미사 통합학교에 대하여</p>
+                                                    <p class="news-desc">아이들이 다니는 학</p>
+                                                    <span class="news-date">2021-03-17</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <p class="news-tit">하남교육재단 사무국장 채용안내</p>
+                                                    <p class="news-desc">하남교육재단에서 하남교육재단 사무국장 채용공고을 알립니다. □채용안내 가</p>
+                                                    <span class="news-date">2021-08-05</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">미사 통합학교에 대하여</p>
+                                                    <p class="news-desc">아이들이 다니는 학</p>
+                                                    <span class="news-date">2021-03-17</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-container sw-news-6">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">파주운정3 A17블록(공공분양) 특별공급대상자 안내(다문화가족)</p>
+                                                    <p class="news-desc">파주운정3 A17블록(공공분양) 특별공급대상자 (다문화가족)안내하오니, 첨부파일을 확인하시기
+                                                        바랍니다. 감사</p>
+                                                    <span class="news-date">2021-08-02</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">치매어르신 실종예방을 위한 배회감지기 무상지원 안내</p>
+                                                    <p class="news-desc">치매어르신 실종예방을 위해 손목형 배회감지기를 무상지원합니다.</p>
+                                                    <span class="news-date">2021-07-29</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <p class="news-tit">과천 지식정보타운 S8블록 린 파밀리에 특별공급대상자 안내(다문화가족)</p>
+                                                    <p class="news-desc">과천 지식정보타운 S8블록 린 파밀리에 특별공급대상자 (다문화가족)안내하오니, 첨부파일을
+                                                        확인하시기 바랍니다</p>
+                                                    <span class="news-date">2021-07-28</span>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+
+                                                    <p class="news-tit">시흥장현 A-3블록(공공분양) 특별공급대상자 안내(다문화가족)</p>
+                                                    <p class="news-desc">시흥장현 A-3블록(공공분양) 특별공급대상자 (다문화가족)안내하오니, 첨부파일을 확인하시기
+                                                        바랍니다. 감사합</p>
+                                                    <span class="news-date">2021-07-28</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="sw-news-box">
+                                                <a href="#" class="news-link">
+                                                    <span class="news-cate">#하남소식</span>
+                                                    <p class="news-tit">2021년 전국다문화가족 실태조사 알림</p>
+                                                    <p class="news-desc">
+                                                        여성가족부는 한국여성정책연구원, 한국통계진흥원을 통해 2021년</p>
+                                                    <span class="news-date">2021-07-28</span>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="city-brand clearfix">
+                            <div class="city-char">
+                                <a href="#" title="빛나는 하남 브랜드">
+                                    <span>빛나는 하남 브랜드</span>
+                                </a>
+                            </div>
+                            <div class="city-man">
+                                <span class="city-man-txt1">시민과 함께하는</span>
+                                <span class="city-man-txt2">하남시장 <strong>김상호</strong> </span>
+                                <ul class="city-man-list">
+                                    <li><a href="#">열린 시장실</a></li>
+                                    <li><a href="#">공약/메니페스토</a></li>
+                                    <li><a href="#">시장에게 바란다</a></li>
+                                </ul>
+                                <img src="images/mayor_photo.png" alt="하남시장 김상호" class="mayor">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 즐겨찾기 -->
+            <section class="city-favo">
+                <div class="pagew">
+                    <h3 class="city-tit">
+                        즐겨찾고 <span>이용하남</span>
+                    </h3>
+                    <div class="city-favo-wrap">
+                        <div class="city-favo-slide">
+                            <div class="swiper-container sw-favo">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link"><a href="#"><img src="images/favorite_icon10.png"><span>상수도 요금 조회</span></a></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link"><a href="#"><img src="images/favorite_icon02.png"><span>민원상담</span></a></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link"><a href="#"><img src="images/favorite_icon03.png"><span>청정하남 호별보기</span></a></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link"><a href="#"><img src="images/favorite_icon04.png"><span>버스노선</span></a></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link"><a href="#"><img src="images/favorite_icon05.png"><span>여권안내</span></a></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link"><a href="#"><img src="images/favorite_icon06.png"><span>불법주정차 사전단속알림</span></a></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link"><a href="#"><img src="images/favorite_icon07.png"><span>민원편람/서식</span></a></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link"><a href="#"><img src="images/favorite_icon08.png"><span>주민생활혁신</span></a></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link"><a href="#"><img src="images/favorite_icon09.png"><span>지역화폐 하머니</span></a></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link"><a href="#"><img src="images/favorite_icon11.png"><span>생활지도</span></a></div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="city-favo-link-last"><a href="#"><img src="images/favorite_icon12.png"><span>가족관계등록신고</span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="favo-more">
+                            전체보기
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- 사진뉴스 영역 -->
+            <section class="city-pics">
+                <div class="pagew">
+                    <h3 class="city-tit">
+                        사진으로
+                        <span>전하남</span>
+                    </h3>
+                    <div class="city-pics-wrap">
+                        <div class="city-pics-left">
+                            <a href="#">
+                                <span class="pic">
+                                    <i></i>
+                                </span>
+                                <ul class="pic-desc">
+                                    <li>
+                                        <span class="pic-tit">
+                                            <i class="icon-news">보도자료</i><em>김상호 하남시장, ‘세 가지 정당성’ 밝히며 GTX-D 강동-하남 경유 반영
+                                                촉구</em>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <p class="pic-txt">
+                                            ○ 김상호 하남시장은 지난 12일 수도권광역급행철도(GTX-D)와 관련해 국토교통부를 항의 방문, GTX-D 노선에 강동구-하남시 경유를 반영할
+                                            것을 촉구했다.
+                                            시는 ｢제4차 국가철도망 구축계획(안)｣ 발표에서 시가 경기도 등과 공동건의한 GTX-D 노선이 김포~부천으로 대폭 축소된 것을 항의하기 위해,
+                                            이날 김상호 시장·이정훈 강동구청장 등 ‘강동구 ․ 하남시 GTX-D노선 공동유치위원회’(이하 ‘유치위원회’)가 국토교통부를 방문했다.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <span class="pic-date">
+                                    2021.05.17
+                                </span>
+                            </a>
+                        </div>
+                        <div class="city-pics-right">
+                            <a href="#" class="city-pics-list">
+                                <span class="city-pics-thumb">
+                                    <img src="images/sample2.png" alt="">
+                                </span>
+                                <span class="city-pics-tit">
+                                    <i class="city-pics-cate">tv 하남</i><em>
+                                        <한시 생계지원> 꼭 챙겨보세요!
+                                    </em>
+                                </span>
+                                <span class="city-pics-date">
+                                    2021.05.12
+                                </span>
+                            </a>
+                            <a href="#" class="city-pics-list">
+                                <span class="city-pics-thumb">
+                                    <img src="images/sample3.jpg" alt="">
+                                </span>
+                                <span class="city-pics-tit">
+                                    <i class="city-pics-cate bg-photo">포토 하남</i><em>
+                                        사랑愛나눔 성품기탁 방역마스크20,000매(맥스코리아)
+                                    </em>
+                                </span>
+                                <span class="city-pics-date">
+                                    2021.02.24
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="city-pics-link">
+                        <ul class="city-pics-link-list clearfix">
+                            <li>
+                                <a href="#">시정소식지 구독신청</a>
+                            </li>
+                            <li>
+                                <a href="#">문자SMS서비스 신청</a>
+                            </li>
+                            <li>
+                                <a href="#">하남시보 바로가기</a>
+                            </li>
+                            <li>
+                                <a href="#">하남시 문화행사 </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- 하남 생활 영역 -->
+            <section class="city-life">
+                <div class="pagew">
+                    <h2 class="city-life-tit">
+                        <img src="images/service_title.png" alt="슬기로운 하남생활">
+                    </h2>
+                    <div class="city-life-wrap clearfix">
+                        <div class="city-life-left">
+                            <div class="city-life-box">
+                                <div class="city-life-top">
+                                    <h3 class="city-life-tit2">
+                                        <span class="city-life-red">비대면서비스로</span> 안전하게!
+                                    </h3>
+                                    <span class="city-life-desc">집에서 안전하게 민원서비스를 이용하세요.</span>
+                                    <span class="city-life-icon1"></span>
+                                </div>
+                                <div class="city-life-cont">
+                                    <ul class="city-life-list">
+                                        <li><a href="#" class="city-life-link">하남시 무인발급기 <span>(동별 현황자료, 민원서류 및
+                                                    수수료)</span></a></li>
+                                        <li><a href="#" class="city-life-link">상수도요금조회</a></li>
+                                        <li><a href="#" class="city-life-link">보건소 검사결과 조회</a></li>
+                                        <li><a href="#" class="city-life-link">희망도서 바로대출 서비스</a></li>
+                                        <li><a href="#" class="city-life-link">정부24온라인 서비스</a></li>
+                                        <li><a href="#" class="city-life-link">대형폐기물 배출신고</a></li>
+                                        <li><a href="#" class="city-life-link">종량제물품 지정판매소 검색</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="city-life-right">
+                            <div class="city-life-box">
+                                <div class="city-life-top">
+                                    <h3 class="city-life-tit2">
+                                        <span class="city-life-green">예약시스템으로</span> 편리하게!
+                                    </h3>
+                                    <span class="city-life-desc">예약가능일을 확인하고 바로 예약하는 원스톱시스템</span>
+                                    <span class="city-life-icon2"></span>
+                                </div>
+                                <div class="city-life-cont">
+                                    <ul class="city-life-list city-life-50">
+                                        <li><a href="#" class="city-life-link">주민자치프로그램</a></li>
+                                        <li><a href="#" class="city-life-link">풋살장</a></li>
+                                        <li><a href="#" class="city-life-link">정보화교육</a></li>
+                                        <li><a href="#" class="city-life-link">유아숲체험원</a></li>
+                                        <li><a href="#" class="city-life-link">도서관문화강좌</a></li>
+                                        <li><a href="#" class="city-life-link">하남유니온파크타워</a></li>
+                                        <li><a href="#" class="city-life-link">무료법률상담 예약</a></li>
+                                        <li><a href="#" class="city-life-link">코로나19 예방접종 사전예약</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 하남 SNS 영역 -->
+            <section class="city-sns">
+                <div class="pagew">
+                    <div class="city-sns-top clearfix">
+                        <h3 class="city-sns-tit">소통하남</h3>
+                        <ul class="city-sns-list clearfix">
+                            <li><button class="sns-bt-fb sns-bt">페이스북</button></li>
+                            <li><button class="sns-bt-bg sns-bt">블로그</button></li>
+                            <li><button class="sns-bt-yt sns-bt">유튜브</button></li>
+                            <li><button class="sns-bt-is"></button></li>
+                            <li><button class="sns-bt-kk"></button></li>
+                            <li><button class="sns-bt-na"></button></li>
+                        </ul>
+                    </div>
+                    <div class="city-sns-wrap">
+                        <!-- 최신리스트 슬라이드 -->
+                        <div class="slide-new slide-sns-active">
+                            <div class="swiper-container sw-sns-new">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+
+                                            <span class="sns-cont-img sns-icon-yt">
+
+                                                <img src="images/sns_1.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                [하남일하남] EP5. 두근두근 하남시 취업 시뮬레이션 : 일자리센터의 비밀
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-05
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-fb">
+                                                <img src="images/sns_2.png" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                ✔ 8/5(목) 하남시 코로나19 #1307 ~ #1318 확진자 발생✔ #1290 ~ #1306 ​역학조사 결과 공개사항 없음
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-05
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-bg">
+                                                <img src="images/sns_3.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                계획이란 미래에 관한 현재의 결정이다 몸도 맘도 지치는 계절, 무더위를 싸~악 날려버릴 시원한 여름 휴가를 계획 중이신가요? 코로나19
+                                                걱정에
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-04
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-yt">
+                                                <img src="images/sns_4.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                [시정JOB부 현장출동] 폭우 대비 잘~하남!!!
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-04
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-fb">
+                                                <img src="images/sns_5.png" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                여름 휴가철 극(한) 성수기 돌입!
+                                                몸도 마음도 지치는 무더위를 싸악~ 날려버릴
+                                                시원한 여름 휴가 계획 중이신 분 손!!
+                                                하남이 방울이가
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-04
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-fb">
+                                                <img src="images/sns_6.png" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                ✔ 8/4(수) 하남시 코로나19 #1290 ~ #1306 확진자 발생
+                                                ✔ #1282 ~ #1289 ​역학조사 결과 공개사항 없음
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-04
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 페이스북 슬라이드 -->
+                        <div class="slide-fb">
+                            <div class="swiper-container sw-sns-fb">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-fb">
+                                                <img src="images/sns_2.png" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                ✔ 8/8(일) 하남시 코로나19 #1335 ~ #1337 확진자 발생
+                                                ✔ #1327 ~ #1330, #1332 ~ #1334 역학조사 결과 공
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-08
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-fb">
+                                                <img src="images/sns_2.png" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                ✔ 8/7(토) 하남시 코로나19 #1327 ~ #1334 확진자 발생
+                                                ✔ #1319 ~ #1326 역학조사 결과 공개사항 없음
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-07
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-fb">
+                                                <img src="images/fb_01.png" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                               태양을 피하고 싶었어~♬
+                                                더워도 너↗↗↗무 더운 올해 여름!
+                                                하남시는 C O O L 하게 폭염에 대처하남! 
+                                                알아서 펴고 접히는 스마
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-06
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-fb">
+                                                <img src="images/sns_2.png" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                ✔ 8/6(금) 하남시 코로나19 #1319 ~ #1326 확진자 발생
+                                                ✔ #1307 ~ #1318 ​역학조사 결과 공개사항 없음
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-06
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-fb">
+                                                <img src="images/sns_2.png" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                ✔ 8/5(목) 하남시 코로나19 #1307 ~ #1318 확진자 발생
+                                                ✔ #1290 ~ #1306 ​역학조사 결과 공개사항 없음
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-05
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-fb">
+                                                <img src="images/sns_5.png" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                               여름 휴가철 극(한) 성수기 돌입!
+                                                몸도 마음도 지치는 무더위를  싸악~ 날려버릴
+                                                시원한 여름 휴가 계획 중이신 분 손!!
+                                                하남이 방울이가 
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-04
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 블로그 슬라이드 -->
+                        <div class="slide-bg">
+                            <div class="swiper-container sw-sns-bg">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-bg">
+                                                <img src="images/sns_3.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                오늘 누군가가 그늘에 앉아 쉴 수 있는 이유는 누군가가 나무를 심었기 때문이다 이렇게 더운데 이번주 토요일이 입추...실화인가요? 한낮에 30℃
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-06
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-bg">
+                                                <img src="images/sns_3.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                계획이란 미래에 관한 현재의 결정이다 몸도 맘도 지치는 계절, 무더위를 싸~악 날려버릴 시원한 여름 휴가를 계획 중이신가요? 코로나19 걱정에 
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-04
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-bg">
+                                                <img src="images/sns_3.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                이렇게 더운데 이번주 토요일이 입추라뇨? (왜 그런거죠...) 후텁지근한 날씨가 기승을 부리는 가운데 무더위를 싸악~ 날려버릴 수 있는 청정하남
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-03
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-bg">
+                                                <img src="images/sns_3.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                음식도, 인생도 기다려. 기다릴 줄 알아야 최고로 맛있는 음식을 맛 볼 수 있어. 하남의 도심 속 리틀포레스트, 미사텃밭과 초이텃밭을 기억하시나
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-07-30
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-bg">
+                                                <img src="images/sns_3.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                삼복 기간에는 입술에 묻은 밥알도 무겁다 짧았던 장마가 끝난 이후 그야말로 본격적인 폭염이 이어지고 있습니다. 한낮에는 35℃ 안팎의 무더위가 
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-07-27
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-bg">
+                                                <img src="images/sns_3.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                수도권에 코로나19 확진자가 급증하면서, 7월 12일부터 2주간 새로운 사회적 거리두기 4단계가 시행되었습니다. 이후 수도권 지역의 코로나19 
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-07-26
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 유튜브 슬라이드 -->
+                        <div class="slide-yt">
+                            <div class="swiper-container sw-sns-yt">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-yt">
+                                                <img src="images/sns_1.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                [하남일하남] EP5. 두근두근 하남시 취업 시뮬레이션 : 일자리센터의 비밀
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-05
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-yt">
+                                                <img src="images/sns_4.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                [시정JOB부 현장출동] 폭우 대비 잘~하남!!!
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-08-04
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-yt">
+                                                <img src="images/sns_7.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                제1기 아동참여위원회 출범!
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-07-31
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-yt">
+                                                <img src="images/sns_8.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                [아~~~하남 7월호] 하남의 미래 든든하남!
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-07-30
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-yt">
+                                                <img src="images/sns_9.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                MC후남이 직접 부른 [임티만 본다] M/V
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-07-22
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="sns-link">
+                                            <span class="sns-cont-img sns-icon-yt">
+                                                <img src="images/sns_10.jpg" alt="sns">
+                                            </span>
+                                            <p class="sns-cont-txt">
+                                                망월천 상류 합동 점검 현장
+                                            </p>
+                                            <span class="sns-cont-date">
+                                                2021-07-17
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- 하단영역 -->
+        <footer class="footer">
+            <div class="footer-banner">
+                <div class="pagew">
+                    <div class="banner-tit">
+                        배너모음
+                    </div>
+                    <div class="banner-wrap">
+                        <div class="banner-slide">
+                            <div class="swiper-container sw-banner">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <ul class="banner-list">
+                                            <li><a href="#">경기도의회 하남상담소</a></li>
+                                            <li><a href="#">어린이급식관리지원센터</a></li>
+                                            <li><a href="#">보이스피싱 피해</a></li>
+                                            <li><a href="#">경기도 장애인생산품판매시설</a></li>
+                                            <li><a href="#">서민금융 1332</a></li>
+                                            <li><a href="#">경기도어린이집관리시스템</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <ul class="banner-list">
+                                            <li><a href="#">경기도의회 하남상담소</a></li>
+                                            <li><a href="#">어린이급식관리지원센터</a></li>
+                                            <li><a href="#">보이스피싱 피해</a></li>
+                                            <li><a href="#">경기도 장애인생산품판매시설</a></li>
+                                            <li><a href="#">서민금융 1332</a></li>
+                                            <li><a href="#">경기도어린이집관리시스템</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <ul class="banner-list">
+                                            <li><a href="#">경기도의회 하남상담소</a></li>
+                                            <li><a href="#">어린이급식관리지원센터</a></li>
+                                            <li><a href="#">보이스피싱 피해</a></li>
+                                            <li><a href="#">경기도 장애인생산품판매시설</a></li>
+                                            <li><a href="#">서민금융 1332</a></li>
+                                            <li><a href="#">경기도어린이집관리시스템</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-control">
+                            <a href="#" class="bt-up"></a>
+                            <a href="#" class="bt-pause"></a>
+                            <a href="#" class="bt-down"></a>
+                            <a href="#" class="bt-more"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-link">
+                <div class="pagew">
+                    <ul class="footer-link-list">
+                        <li>
+                            <a href="#" class="special">
+                                <strong>개인정보처리방침</strong>
+                            </a>
+                        </li>
+                        <li><a href="#">저작권정책</a></li>
+                        <li><a href="#">청사안내</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <div class="pagew">
+                    <div class="footer-copy-left">
+                        <a href="#" class="footer-logo">
+                            <img src="images/footer_logo.png" alt="">
+                        </a>
+                        <span>우)12951 경기도 하남시 대청로 10 (신장동) 하남시청TEL : 031-790-6114 / FAX : 031-790-6399</span>
+                        <span>Copyright (c) 2021 HANAM CITY. All rights Reserved.</span>
+                    </div>
+                    <a href="#" class="ww">
+                        <img src="images/wa_mark.png" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'dwimpactamin';
+    src: url('dwimpactamin-webfont.eot');
+    src: url('dwimpactamin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DWImpactamin.woff2') format('woff2'),
+         url('dwimpactamin-webfont.woff') format('woff'),
+         url('dwimpactamin-webfont.svg#dwimpactaminregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
